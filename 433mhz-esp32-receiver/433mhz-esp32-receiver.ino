@@ -25,7 +25,7 @@ void loop()
   {
     //Verifica o valor recebido pelo receptor
     //int valor = rfsense.getReceivedValue();
-    float value = rfsense.getReceivedValue() / 100.0;
+    float value = rfsense.getReceivedValue();
     Serial.println(value);
     
   }
